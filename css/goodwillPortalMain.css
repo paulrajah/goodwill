@@ -17,13 +17,13 @@ Footer Color: #FFF
 
 #wrapper {margin-left: auto; margin-right: auto; width: 1020px; background-color: rgb(149,193,233);}
 
-body {background-color: rgb(149,193,233); font-family: arial, helvetica, 'sans-serif'; /*border: solid 15px #88aadd;*/}
+body {background-color: rgb(149,193,233); font-family: arial, helvetica, 'sans-serif';}
 
 header {background-color: #003399; padding: 20px; font-family: arial, helvetica, 'sans-serif'; color: #FFF; text-decoration: underline; : 10px; height: 200px;}
 
 header h1 {margin: 0; text-align: center; vertical-align: middle; margin-bottom: 20px;}
 
-header h3 {text-align: center;}
+header h2 {text-align: center; }
 
 header table {margin-right: auto; margin-left: auto; text-align: left;}
 
@@ -82,3 +82,5 @@ footer {clear: both; background-color: #003399; text-align: left; padding-top: 2
 footer a {color: #FFF;}
 
 #mainSection img, #rightAside h2 img, #leftAside img, #leftDiv img, #rightDiv img {border-radius: 100%;}
+
+#mainSection img {border-radius: 0%;}
