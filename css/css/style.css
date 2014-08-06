@@ -1,0 +1,198 @@
+/*COLORS
+
+Background Color: rgb(149,193,233)
+
+Font/Header Color: #003399
+
+H2 Background Color: rgb(206,230,251)
+
+Footer Color: #FFF
+
+*/
+
+
+/*HOME PAGE*/
+
+#wrapper {margin-left: auto; margin-right: auto; width: 1000px; background-color: rgb(149,193,233);}
+
+body {background-color: rgb(149,193,233); font-family: arial, helvetica, 'sans-serif';}
+
+header {background-color: #003399; padding: 20px; font-family: arial, helvetica, 'sans-serif'; color: #FFF; text-decoration: underline; : 10px;}
+
+header h1 {margin: 0; text-align: center; vertical-align: middle;}
+
+#topNav {float: left; width: 100%; background-color: rgb(149,193,233);}
+
+#topNav ul {margin: 0px; padding: 0px;}
+
+#topNav ul li {display: inline; list-style-type: none; font-family: arial, helvetica, 'sans-serif';;}
+
+#topNav ul li a {text-decoration: none; display: block; float: left; padding: 5px 10px; border-right: solid 1px #FFF; color: #FFE;}
+
+#topNav ul li a:hover {background-color: rgb(149,193,233); color: black;}
+
+#containerOne {float: left; width: 100%; padding: 0; margin: 0; background-color: #FFF;}
+
+#containerTwo {float: left; width: 100%; padding: 0; margin: 0;}
+
+#sectionAside {float: left; width: 16%; padding: 5px white; margin: 2% white; display: inline; text-align: left; background-color: rgb(209,230,251); border: solid 10px rgb(209,230,251)}
+
+#sectionAside ul {margin: 0; padding: 0; }
+
+#sectionAside ul li {margin: 0 0 1em; padding: 0; list-style-type: none;}
+
+#sectionAside h2 {color: #003399;}
+
+#homePageSection {float: left; width: 50%; padding: 25px 0px; margin: 20 20 20 20px; text-align: justify; border-top: 20px solid #FFF;} 
+
+#homePageSection h2 {margin: 0; background-color: rgb(209,230,251); border: solid 10px rgb(209,230,251); color: #003399;}
+
+footer {clear: both; background-color: #003399; text-align: left; padding: 20px; height: 1%; width: 95.4%; font-size: 12px; color: #FFF;}
+
+footer a {color: #FFF;}
+
+aside {float: right; width: 240px; padding: 20px 0px; margin: 10px 0px 20px 0px; border: solid 10px rgb(209,230,251); display: inline; background-color: rgb(209,230,251)}
+
+aside h3 {margin: 0px;}
+
+#sectionaside article {border-bottom-color: black;}
+
+#Logo {border-radius: 0%;}
+
+
+
+/*ABOUT GRM*/
+
+/*nav {float: left; width: 100%; background-color: #333;}
+
+nav ul {margin: 0px; padding: 0px;}
+
+nav ul li {display: inline; list-style-type: none; font-family: arial, helvetica, 'sans-serif';;}
+
+nav ul li a {text-decoration: none; color: #FFF; display: block; float: left; padding: 5px 10px; border-right: solid 1px #FFF;}
+
+nav ul li a:hover {background-color: #383; color: black;}
+
+aside {float: right; width: 240px; padding: 20px 0px; margin: 0px 20px 0px 0px; border: solid 10px rgb(209,230,251); display: inline; background-color: rgb(209,230,251)}
+
+aside h3 {margin: 0px; }
+
+#sectionContainer {float: right; width: 900px; background-color: #FFF;}
+
+section {clear: right; float: right; width: 560px; padding: 20px 0px; margin: 0px 0px 30px; display: inline;}
+
+section h2 {color:  #003399; font-size: 160%; margin: 0px;}*/
+
+
+
+/*TESTING*/
+
+img {border-radius: 100%;}
+
+  /*.textmiddle {vertical-align: middle;}*/ 
+
+/*SLIDER   
+   #slides {
+      display: none;
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+    #slides {width: 200; height: 200;}*/
