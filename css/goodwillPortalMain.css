@@ -17,13 +17,13 @@ Footer Color: #FFF
 
 #wrapper {margin-left: auto; margin-right: auto; width: 1020px; background-color: rgb(149,193,233);}
 
-body {background-color: rgb(149,193,233); font-family: arial, helvetica, 'sans-serif';}
+body {background-color: #88aadd; font-family: arial, helvetica, 'sans-serif';}
 
-header {background-color: #003399; padding: 20px; font-family: arial, helvetica, 'sans-serif'; color: #FFF; text-decoration: underline; : 10px; height: 200px;}
+header {background-color: #FFF; padding: 20px; font-family: arial, helvetica, 'sans-serif'; color: #003399; text-decoration: underline; : 10px; height: 200px;}
 
 header h1 {margin: 0; text-align: center; vertical-align: middle; margin-bottom: 20px;}
 
-header h2 {text-align: center; }
+header h3 {text-align: center;}
 
 header table {margin-right: auto; margin-left: auto; text-align: left;}
 
@@ -49,13 +49,13 @@ UNKNOWN CODING
 
 #leftAside h2 {color: #003399;}
 
-#mainSection {float: left; width: 555px; /*padding: 30px 0px;*/ margin: 20 20 20 20px; text-align: justify; border-top: 20px solid #FFF; padding-left: 10px; padding-right: 10px; margin-bottom: 30px;} 
+#mainSection {float: left; width: 555px; /*padding: 30px 0px;*/ margin: 20 20 20 20px; text-align: justify; border-top: 20px solid #FFF; padding-left: 10px; padding-right: 10px; margin-bottom: 30px; background } 
 
 #mainSection h2 {margin: 0; color: #003399; text-align: center; vertical-align: middle;}
 
 #mainSection h2 p {background-color: rgb(206,230,251); border: solid 10px rgb(206,230,251)}
 
-#rightAside {float: right; width: 240px; padding: 10px 2px; border: solid 10px rgb(209,230,251); display: inline; background-color: rgb(209,230,251); text-align: justify; position: absolute;}
+#rightAside {float: right; width: 240px; padding: 10px 1px; border: solid 10px rgb(209,230,251); display: inline; background-color: rgb(209,230,251); text-align: justify; position: absolute;}
 
 #rightAside h2 {margin: 0px; text-align: center;}
 
@@ -83,8 +83,6 @@ footer a {color: #FFF;}
 
 #mainSection img, #rightAside h2 img, #leftAside img, #leftDiv img, #rightDiv img {border-radius: 100%;}
 
-#mainSection img {border-radius: 0%;}
-
 /* =================================== 
 	Decorative Bar
 
@@ -107,7 +105,8 @@ footer a {color: #FFF;}
 
 .medium-green{
 	position: relative;
-	background: rgb(170,187,255);
+	background: rgb(206,230,251);
+	
 }
 
 .light-green{
@@ -122,7 +121,7 @@ footer a {color: #FFF;}
 	display: block;
 	height: 30px;
 	padding-left: 340px;
-	background: rgb(170,187,255);
+	background: #003399);
 }
 
 .super-green{
@@ -136,7 +135,7 @@ footer a {color: #FFF;}
 	top: 0px;
 	display: block;
 	height: 30px;
-	background: rgb(170,187,255);
+	background: #003399;
 	padding-right: 340px;
 }
 
