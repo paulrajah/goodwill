@@ -84,3 +84,60 @@ footer a {color: #FFF;}
 #mainSection img, #rightAside h2 img, #leftAside img, #leftDiv img, #rightDiv img {border-radius: 100%;}
 
 #mainSection img {border-radius: 0%;}
+
+/* =================================== 
+	Decorative Bar
+
+====================================*/
+
+
+#decorative-bar{
+	width: 340px;;
+	height: 30px;
+	display: block;
+	margin: 0px auto;
+	padding:0px;
+}
+
+#decorative-bar div{
+	height: 30px;
+	display: block;
+	width: 340px;
+}
+
+.medium-green{
+	position: relative;
+	background: rgb(170,187,255);
+}
+
+.light-green{
+	position: absolute;
+	left: -340px;
+}
+
+.light-green span{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	display: block;
+	height: 30px;
+	padding-left: 340px;
+	background: rgb(170,187,255);
+}
+
+.super-green{
+	position: absolute;
+	right: -340px;
+}
+
+.super-green span{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+	height: 30px;
+	background: rgb(170,187,255);
+	padding-right: 340px;
+}
+
+
