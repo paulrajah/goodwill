@@ -9,37 +9,29 @@
 
   <style>
 
-	body{
-		font-family: Georgia, Times New Roman, Times, serif;
-		font-size: 30px;
-		/*text-align: center;*/
-	}
+	body{ font-family: Tahoma, 'Times New Roman', times, serif; font-size: 30px; margin-right: auto; margin-left: auto;}
 
-	.scrollblock {
-	position: relative;
-	margin: 0;
-	width: 100%;
-    color: white;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
+	.scrollblock {position: relative; margin: 0; width: 100%; color: white; padding-top: 80px;padding-bottom: 80px;}
 
-.block-title { background-color: #FFF; padding-bottom: 50px; color:black; text-align: center;}
+.block-title { background-image: ; padding-bottom: 50px; color:black; text-align: center; }
 
-.block-title h2 { color: #000; }
+.block-title h1 {text-align: center;}
+
+.block-title h1 img {border-radius: 100%;}
+
+.block-title h2 { color: #000; text-align: center;}
 
 .block-title .meta { font-size: 16px; color: #999; }
 
 .block-title .meta a { font-size: 16px; color: #333; }
 
-.block-title img {border-radius: 100%;}
+/*.block-title img  {opacity: 10%;}*/
 
-.block-setup { background-color: #348fd4; text-align: center}
+.block-setup { background-color: #83DCFF; text-align: center}
 
-.block-setup h2 { color: #06406c; }
+.block-setup h2 { color: #06406c;}
 
 .block-setup p {font-size: 26.8px;}
-
 /*.block-setup h2 a { background: none; padding: 0; font-size: normal; }*/
 
 /*.block-setup a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }*/
@@ -48,7 +40,7 @@
 
 .block-setup img {border-radius: 100%}
 
-.block-create { background-color: #06406c; padding-bottom: 400px;}
+.block-create { background-color: #45CEFF; padding-bottom: 400px;}
 
 .block-create h2 { color: #FFF; text-align: center;}
 
@@ -56,16 +48,7 @@
 
 .block-create code { background-color: #000; color: #FFF;}
 
-ul.sdt_menu{
-    margin:0;
-    padding:0;
-    list-style: none;
-    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
-    font-size:14px;
-    width:1020px;
-    margin-right: auto;
-    margin-left: auto;
-}
+ul.sdt_menu{margin: 0; padding: 0; list-style: none; font-family:"Myriad Pro", "Trebuchet MS", sans-serif; font-size:14px; width:1020px; margin-right: auto; margin-left: auto;}
 
 ul.sdt_menu a{
     text-decoration:none;
@@ -179,32 +162,13 @@ ul.sdt_menu li div.sdt_box a:hover{
     color:#fff;
 }
 
-
-
-/*.services {background-color: #005555; padding: 0px; margin: 0px; list-style: none; height: 50px; text-decoration: none;}
-
-.services li {float: left;}
-
-.services li a {padding: 9px 30px; display: block; color: #FFF; text-decoration: none; font-family: arial, verdana, 'sans-serif'; font-size: 24px;}*/
-
-        /*Sub Menu */
-
-/*.services ul {position: absolute; left: -9999px; top: -9999px; list-style: none;}
-
-.services li:hover {position: relative; background-color: #5FD367;}
-
-.services li:hover ul {left: 0px; top: 30px; background-color: #5FD367; padding: 0px;}
-
-.services li:hover ul li a {padding: 10px; display: block; width: 200px; text-indent: 16px; background-color: #5FD367;}
-.services li:hover ul li a:hover {background-color: #005555;}*/
-
-.block-checkout { background-color: #FFF; }
+.block-checkout { background-color: #09B3FF; }
 
 .block-checkout h2 { color: #000; text-align: center;}
 
 .block-checkout table {color: #000; margin-right: auto; margin-left: auto; text-align: left;}
 
-.block-trees { background-color: #4c0d09; }
+.block-trees { background-color: #008BC4; }
 
 .block-trees h2 { color: #d3b2af; text-align: center;}
 
@@ -212,13 +176,49 @@ ul.sdt_menu li div.sdt_box a:hover{
 
 .block-trees code { color: #000; background-color: white; }
 
-.block-add { background-color: #cc4037; }
+.block-trees img {border-radius: 100%; margin-right: 50px; position: relative;}
+
+.block-add { background-color: #FFA545; }
 
 .block-add h2, .block-add p { color: #4c0d09; text-align: center;}
 
-.block-remote { background-color: #ffc19f; }
+.block-remote {background-color: #ffc19f; padding-bottom: 800px;}
 
-.block-remote h2 { color: #cc4037; }
+.block-remote h2 {color: #cc4037; text-align: center;}
+
+.block-remote h3 {text-align: center; padding-top: 20px;}
+
+.block-remote figure {font-style: normal;}
+
+.block-remote .text {font-size: 16px;}
+
+.block-remote .servicehovers, #homelessMinistries, #feedingPrograms, #drop-in, #bread, #holiday {width: 220px; height: 300px;}
+
+.block-remote #homelessMinistries {float: left; padding-right: 20px; padding-left: 5px;}
+
+.block-remote #feedingPrograms {float: left; padding-right: 20px; padding-left: 5px;}
+
+.block-remote #drop-in {float: left; padding-right: 20px; padding-left: 5px;}
+
+.block-remote #bread {float: left; padding-right: 20px; padding-left: 5px;}
+
+.block-remote #holiday {float: left; padding-right: 20px; padding-left: 5px;}
+
+
+/*THE BEGINNING OF THE SERVICES DIV MENU*/
+
+/*.block-remote figure figcaption div {width: 300; height: 100; ; transition: width  3s;}
+
+.block-remote figure figcaption div p {display: none; line-height: 1.5px;}
+
+.block-remote figure figcaption div:hover {width: 80%; height: 100%; padding: 10px;}
+
+.block-remote figure figcaption div:hover p {display: block;}
+
+.text {font-size: 12px}*/
+
+
+.block-remote img {border-radius: 100%; margin-right: 30px;}
 
 .block-branching { background-color: #000; }
 
@@ -309,13 +309,17 @@ ul.sdt_menu li div.sdt_box a:hover{
 
     <div class="scrollblock block-title">
 
+        <h1>
+
         <img src="http://placehold.it/210X210" />
 
-        <h1>Goodwill Rescue Mission</h1>
+        <p>Goodwill Rescue Mission</p>
+
+        </h1>
 
         <h3><em>"Goodwill Rescue Mission Mission Statement"</em></h3>
 
-        <p><a href="http://www.grmnewark.org/donate.asp">DONATE</a></p>
+        <p><a href="http://www.grmnewark.org/donate.asp"><img src="images/donateButton.png" /></a></p>
 
     </div>
 
@@ -368,42 +372,72 @@ ul.sdt_menu li div.sdt_box a:hover{
         </ul>-->
 
             <ul id="sdt_menu" class="sdt_menu">
+
                 <li>
+
                     <a href="#">
+
                         <img src="http://placehold.it/170X170" />
+
                         <span class="sdt_active"></span>
+
                         <span class="sdt_wrap">
+
                             <span class="sdt_link">Homeless Ministries</span>
+
                             <span class="sdt_descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat. Learn more about the <a href="http://www.grmnewark.org/programs/emergency.asp">homeless ministries</a></span>
+
                         </span>
+
                     </a>
+
                 </li>
+
                 <li>
+
                     <a href="#">
+
                         <img src="http://placehold.it/170X170" />
+
                         <span class="sdt_active"></span>
+
                         <span class="sdt_wrap">
+
                             <span class="sdt_link">Feeding Programs</span>
+
                             <span class="sdt_descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat. Learn more about the <a href="http://www.grmnewark.org/programs/emergency.asp">feeding programs.</a></span>
+
                         </span>
+
                     </a>
+
                     <div class="sdt_box">
+
                             <a href="#">Websites</a>
+
                             <a href="#">Illustrations</a>
+
                             <a href="#">Photography</a>
+
                     </div>
                 </li>
+
                 <li>
+
                     <a href="#">
+
                         <img src="http://placehold.it/170X170" />
+
                         <span class="sdt_active"></span>
+
                         <span class="sdt_wrap">
+
                             <span class="sdt_link">Drop-In Center</span>
                             <span class="sdt_descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -436,23 +470,15 @@ ul.sdt_menu li div.sdt_box a:hover{
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat. Learn more about the <a href="http://www.grmnewark.org/programs/community.asp">holiday blessings.</a></span>
                         </span>
+
                     </a>
-                </li>
-                <!--<li>
-                    <a href="#">
-                        <img src="images/6.jpg" alt=""/>
-                        <span class="sdt_active"></span>
-                        <span class="sdt_wrap">
-                            <span class="sdt_link">Projects</span>
-                            <span class="sdt_descr">I like to code</span>
-                        </span>
-                    </a>
-                    <div class="sdt_box">
-                        <a href="#">Job Board Website</a>
-                        <a href="#">Shopping Cart</a>
-                        <a href="#">Interactive Maps</a>-->
+
+                </li>               
+            
                     </div>
+
                 </li>
+
             </ul>
 
 
@@ -522,7 +548,7 @@ ul.sdt_menu li div.sdt_box a:hover{
 
         <img src="http://placehold.it/200X200" />
 
-        <p id="">History</p>
+        <p id="">History of the Goodwill</p>
 
         </h2>
 
@@ -557,7 +583,27 @@ ul.sdt_menu li div.sdt_box a:hover{
 
         </p>
 
-        <p>facebook, youtube, email, links</P>
+        <p>
+
+            <a href="https://www.facebook.com/pages/Goodwill-Rescue-Mission/19099954432">
+
+                <img src="images/facebook.png" />
+
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCPPK96G7aF5SuqBaa0tilNQ">
+
+                <img src="images/youtube.png" />
+
+            </a>
+
+            <a href="mailto:goodwill@grmnewark.org">
+            
+                <img src="images/email.png" />
+
+            </a>
+
+        </p>
 
 
     </div>
@@ -571,91 +617,112 @@ ul.sdt_menu li div.sdt_box a:hover{
 
 
     <div class="scrollblock block-remote">
-        <h2>pushing changes</h2>
-  
 
-
-    </div>
-
-
-
-
-
-
-
-
-    <div class="scrollblock block-branching">
-        <h2>branching</h2>
-
-
-    </div>
-
+        <h2>Services Trial</h2>
     
+        <h3>
+
+            <figure id="homelessMinistries">
+
+                <img src="http://placehold.it/160X160" />
 
 
+                <figcaption>
 
+                    <div class="servicehovers">
 
+                        <h5>Homeless Ministries</h5>
 
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Learn more about the <a href="http://www.grmnewark.org/programs/emergency.asp">homeless ministries.</a></p>
 
-    <div class="scrollblock block-merging">
-        <h2>update &amp; merge</h2>
-     
+                    </div>
+
+                </figcaption>
+
+            </figure>
+
+            <figure id="feedingPrograms">
+
+                <img src="http://placehold.it/160X160" />
+
+                <figcaption>
+
+                    <div class="servicehovers">
+
+                        <h5>Feeding Programs</h5>
+
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Learn more about the <a href="http://www.grmnewark.org/programs/emergency.asp">feeding programs.</a></p>
+
+                    </div>
+
+                </figcaption>
+
+            </figure>
+
+            <figure id="drop-in">
+
+                <img src="http://placehold.it/160X160" />
+
+                <figcaption>
+
+                    <div class="servicehovers">
+
+                        <h5>Drop-In Center</h5>
+
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Learn more about the <a href="http://www.grmnewark.org/programs/emergency.asp">drop-in center.</a></p>
+
+                    </div>
+
+                </figcaption>
+
+            </figure>
+
+            <figure id="bread">
+
+                <img src="http://placehold.it/160X160" />
+
+                <figcaption>
+
+                    <div class="servicehovers">
+
+                        <h5>The Bread of Life</h5>
+
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Learn more about the <a href="http://www.grmnewark.org/programs/community.asp">bread of life.</a></p>
+
+                    </div>
+
+                </figcaption>
+
+            </figure>
+
+            <figure id="holiday">
+
+                <img src="http://placehold.it/160X160" />
+
+                <figcaption>
+
+                    <div class="servicehovers">
+
+                        <h5>Holiday Blessings</h5>
+
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Learn more about the <a href="http://www.grmnewark.org/programs/community.asp">holiday blessings</a></p>
+
+                    </div>
+
+                </figcaption>
+
+            </figure>
+
+        </h3>
 
     </div>
 
 
 
-    
-
-
-
-    <div class="scrollblock block-log">
-        <h2>log</h2>
-
-
-
-    </div>
-
-
-
-
-
-   
-
-
-
-
-    <div class="scrollblock block-checkout-replace">
-        <h2>replace local changes</h2>
- 
-
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="scrollblock block-resources">
-        <h2>links & resources</h2>
-
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="scrollblock block-comments">
-        <h2>Comments</h2>
-    
-    </div>
        <!-- The JavaScript -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script type="text/javascript" src="jquery.easing.1.3.js"></script>
@@ -713,7 +780,9 @@ ul.sdt_menu li div.sdt_box a:hover{
                          .stop(true)
                          .animate({'top':'25px'},500);
                 });
+
             });
+
         </script>
 
 </body>
