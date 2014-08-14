@@ -1,0 +1,39 @@
+/*COLORS
+
+Background Color: rgb(149,193,233)*/
+
+/*ABOUT GRM PAGE*/
+
+#wrapper {margin-left: auto; margin-right: auto; width: 1020px; background-color: rgb(149,193,233);}
+
+body {background-color: rgb(149,193,233); font-family: arial, helvetica, 'sans-serif';}
+
+header {background-color: #003399; padding: 20px; font-family: arial, helvetica, 'sans-serif'; color: #FFF; text-decoration: underline; : 10px; height: 200px;}
+
+header h1 {margin: 0; text-align: center; vertical-align: middle; margin-bottom: 20px;}
+
+nav {float: left; width: 100%; background-color: #333;}
+
+nav ul {margin: 0px; padding: 0px;}
+
+nav ul li {display: inline; list-style-type: none; font-family: arial, helvetica, 'sans-serif';;}
+
+nav ul li a {text-decoration: none; color: #FFF; display: block; float: left; padding: 5px 10px; border-right: solid 1px #FFF;}
+
+nav ul li a:hover {background-color: #383; color: black;}
+
+aside {float: right; width: 240px; padding: 20px 0px; margin: 0px 20px 0px 0px; border: solid 10px rgb(209,230,251); display: inline; background-color: rgb(209,230,251)}
+
+aside h3 {margin: 0px; }
+
+#sectionContainer {float: right; width: 900px; background-color: #FFF;}
+
+section {clear: right; float: right; width: 560px; padding: 20px 0px; margin: 0px 0px 30px; display: inline;}
+
+section h2 {color:  #003399; font-size: 160%; margin: 0px;}
+
+footer {clear: both; background-color: #003399; text-align: left; padding-top: 20px; padding-left: 20px; padding-bottom: 20px; padding-right: 0px; height: 40px; font-size: 12px; color: #FFF;}
+
+footer a {color: #FFF;}
+
+img {border-radius: 100%; vertical-align: text-top;}
