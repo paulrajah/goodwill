@@ -1,0 +1,142 @@
+/*
+
+COLORS
+
+Background Color: rgb(149,193,233)
+
+Font/Header Color: #003399
+
+H2 Background Color: rgb(206,230,251)
+
+Footer Color: #FFF
+
+*/
+
+
+/*MAIN PORTAL PAGE*/
+
+#wrapper {margin-left: auto; margin-right: auto; width: 1020px; background-color: rgb(149,193,233);}
+
+body {background-color: rgb(149,193,233); font-family: arial, helvetica, 'sans-serif'; /*border: solid 15px #88aadd;*/}
+
+header {background-color: #003399; padding: 20px; font-family: arial, helvetica, 'sans-serif'; color: #FFF; text-decoration: underline; : 10px; height: 200px;}
+
+header h1 {margin: 0; text-align: center; vertical-align: middle; margin-bottom: 20px;}
+
+header h3 {text-align: center;}
+
+header table {margin-right: auto; margin-left: auto; text-align: left;}
+
+#containerOne {float: left; width: 100%; padding: 0; margin: 0; background-color: #FFF;}
+
+#containerTwo {float: left; width: 100%; padding: 0; margin: 0;}
+
+#leftAside {float: left; width: 16%; padding: 5px white; margin: 1% white; display: inline; background-color: rgb(209,230,251); border: solid 10px rgb(209,230,251);}
+
+#leftAside p {text-align: justify;}
+
+#leftAside h2 p {background-color: rgb(206,230,251); text-align: center;}
+
+/*
+
+UNKNOWN CODING
+
+#leftAside ul {margin: 0; padding: 0; }
+
+#leftAside ul li {margin: 0 0 1em; padding: 0; list-style-type: none;}
+
+*/
+
+#leftAside h2 {color: #003399;}
+
+#mainSection {float: left; width: 555px; /*padding: 30px 0px;*/ margin: 20 20 20 20px; text-align: justify; border-top: 20px solid #FFF; padding-left: 10px; padding-right: 10px; margin-bottom: 30px;} 
+
+#mainSection h2 {margin: 0; color: #003399; text-align: center; vertical-align: middle;}
+
+#mainSection h2 p {background-color: rgb(206,230,251); border: solid 10px rgb(206,230,251)}
+
+#rightAside {float: right; width: 240px; padding: 10px 1px; border: solid 10px rgb(209,230,251); display: inline; background-color: rgb(209,230,251); text-align: justify; position: absolute;}
+
+#rightAside h2 {margin: 0px; text-align: center;}
+
+#rightAside h2 p {background-color: rgb(206,230,251); color: #003399;}
+
+#rightAside p {border-radius: 0%;}
+
+#sectionaside article {border-bottom-color: black;}
+
+#leftDiv {float: left; width: 275px; text-align: justify; border-right: solid 10px white; padding-left: 10px;}
+
+#leftDiv h2 {text-align: center;}
+
+#leftDiv h2 p {background-color: rgb(206,230,251); border: solid 10px rgb(206,230,251); color: #003399;}
+
+#rightDiv {float: left; width: 275px; text-align: justify; border: 16px;}
+
+#rightDiv h2 {text-align: center;}
+
+#rightDiv h2 p {background-color: rgb(206,230,251); border: solid 10px rgb(206,230,251); color: #003399;}
+
+footer {clear: both; background-color: #003399; text-align: left; padding-top: 20px; padding-left: 20px; padding-bottom: 20px; padding-right: 0px; height: 1%; font-size: 12px; color: #FFF;}
+
+footer a {color: #FFF;}
+
+#mainSection img, #rightAside h2 img, #leftAside img, #leftDiv img, #rightDiv img {border-radius: 100%;}
+
+
+
+/* =================================== 
+	Decorative Bar
+
+====================================*/
+
+
+#decorative-bar{
+	width: 340px;;
+	height: 30px;
+	display: block;
+	margin: 0px auto;
+	padding:0px;
+}
+
+#decorative-bar div{
+	height: 30px;
+	display: block;
+	width: 340px;
+}
+
+.medium-green{
+	position: relative;
+	background: rgb(170,187,255);
+}
+
+.light-green{
+	position: absolute;
+	left: -340px;
+}
+
+.light-green span{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	display: block;
+	height: 30px;
+	padding-left: 340px;
+	background: rgb(170,187,255);
+}
+
+.super-green{
+	position: absolute;
+	right: -340px;
+}
+
+.super-green span{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+	height: 30px;
+	background: rgb(170,187,255);
+	padding-right: 340px;
+}
+
